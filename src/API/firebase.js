@@ -4,12 +4,12 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.AIzaSyCt_OjTCnKYUWK3jPzgerUXEx9ZgW8B6sQ,
-  authDomain: process.env.react-file-manager-c55fb.firebaseapp.com,
-  projectId: process.env.react-file-manager-c55fb,
-  storageBucket: process.env.react-file-manager-c55fb.appspot.com,
-  messagingSenderId: process.env.842331486811,
-  appId: process.env.1:842331486811:web:8b3fff7615f274da1f9d7e,
+  apiKey: process.env.React_App_apiKey,
+  authDomain: process.env.React_App_authDomain,
+  projectId: process.env.React_App_projectId,
+  storageBucket: process.env.React_App_storageBucket,
+  messagingSenderId: process.env.React_App_messagingSenderId,
+  appId: process.env.React_App_appId,
 };
 
 firebase.initializeApp(firebaseConfig);
